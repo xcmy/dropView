@@ -1,5 +1,4 @@
-# dropView
-a list
+Create dropView
 
 
     _data1=@{@"title":@"name",@"data":@[@"id"]};
@@ -20,7 +19,7 @@ a list
 
 
 
-#pragma mark DropViewDataSourceAndDelegate
+DropViewDataSourceAndDelegate
 -(NSInteger)numberOfMenuInMenu:(JDDropView *)dropV
 {
     return 3;
