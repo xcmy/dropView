@@ -26,38 +26,45 @@ DropViewDataSourceAndDelegate
 -(NSInteger)numberOfMenuInMenu:(JDDropView *)dropV
 {
     return 3;
-}\n
+}
+
 -(NSInteger)dropViewTypeInColum:(int)colum InMenu:(JDDropView *)dropV
 {
     //2,1,0表示样式（0表示noview，1表示一个tableview，2表示两个tableview）
    
     return 0;
-}\n
+}
+
 -(NSInteger)LeftTableViewCount:(int)colum
 {
 //左边的tableView行数
     return 0;
-}\n
+}
+
 -(NSInteger)RightTableViewCount:(int)colum WithLeftIndex:(int)leftRow
 {
 //点击左边右边的tableView行数
     return 0;
-}\n
+}
+
 -(NSString *)titleForLeftInColum:(int)colum InCellIndexPath:(int)index
 {
 
     return @"";
-}\n
+}
+
 -(NSString *)titleForRightInColum:(int)colum WithLeftIndex:(int)leftRow InCellIndexPath:(int)index
 {
     return @"";
-}\n
+}
+
 //delegate
-\n
+
 -(void)didSelectRowInColum:(int)colum WithLeftRow:(int)leftRow WithRightRow:(int)rightRow
 {
     
-}\n
+}
+
 -(void)didSelectItemsTagArray:(NSArray *)itemsA
 {
    
