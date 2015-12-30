@@ -20,6 +20,9 @@ Create dropView
 
 
 DropViewDataSourceAndDelegate
+
+
+
 -(NSInteger)numberOfMenuInMenu:(JDDropView *)dropV
 {
     return 3;
@@ -32,14 +35,17 @@ DropViewDataSourceAndDelegate
 }
 -(NSInteger)LeftTableViewCount:(int)colum
 {
+//左边的tableView行数
     return 0;
 }
 -(NSInteger)RightTableViewCount:(int)colum WithLeftIndex:(int)leftRow
 {
+//点击左边右边的tableView行数
     return 0;
 }
 -(NSString *)titleForLeftInColum:(int)colum InCellIndexPath:(int)index
 {
+
     return @"";
 }
 -(NSString *)titleForRightInColum:(int)colum WithLeftIndex:(int)leftRow InCellIndexPath:(int)index
